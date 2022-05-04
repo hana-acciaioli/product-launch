@@ -1,3 +1,6 @@
+body{
+    background-color:bisque;
+}
 h1{
     color:rgb(232, 177, 56);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -5,5 +8,7 @@ h1{
 }
 
 p{
-    color:blueviolet
+    color:rgb(139, 100, 7);
+    font-weight:bold;
+
 }
