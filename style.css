@@ -51,7 +51,7 @@ img{
 }   
 
 #splash {
-    width:60%;
+    width:600%;
     height:100vh;
     display:flex;
     background-image: url(SnowCanyon.jpg);
