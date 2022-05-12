@@ -1,14 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Monoton&display=swap');
+*{
+/* CSS HEX */
+--cafe-au-lait: #b4856bff;
+--ebony: #636244ff;
+--antique-brass: #cf9d7cff;
+--dim-gray: #706c68ff;
+--denim: #1962bcff;
+}
+
 body{
-    background-color:bisque;
+    background-color: var(--denim); 
+    display: flex;   
 }
 h1{
-    color:rgb(232, 177, 56);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(255, 228, 196);
+    color: var(--antique-brass);
+    font-family:"Alumni Sans Inline One"    ;
+    text-align: center;
+    
 }
 
 p{
-    color:rgb(139, 100, 7);
+    color:var(--antique-brass);
     font-weight:bold;
+
+}   
+
+
+img{
+    width:100%;
+}
+#info {
+    width:40%
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(SnowCanyon.jpg);
+}
+
+#info img { 
+    border-radius:50%;
+}
+
+@media (min-width: 600px){
+
+#info {
+    back-ground-image: none
+}
+.container {
+    width:50%;
+}   
+
+#splash {
+    width:60%;
+    height:100vh;
+    display:flex;
+    background-image: url(SnowCanyon.jpg);
+    background-size: cover;
+}
+
+.background img {
+    width:100%;
+}
 
 }
