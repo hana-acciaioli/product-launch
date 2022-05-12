@@ -4,7 +4,7 @@ Alchemy Dev 101
 By Hana Acciaioli
 ## This is a new line
 ### I think I got it
-#### By jo she's got it
+#### By George she's got it
 ##### Remember the "shift" when trying to use shortcuts in gitbash!
 
 ###### Not a heading size anymore
